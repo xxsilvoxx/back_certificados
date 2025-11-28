@@ -1,0 +1,18 @@
+{
+  "name": "sistema-certificados-backend",
+  "version": "1.0.0",
+  "description": "Backend para sistema de certificados",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
